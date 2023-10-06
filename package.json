@@ -16,7 +16,8 @@
     "build:css": "npm run generate:css -- --minify",
     "dev:css": "npm run generate:css -- --watch",
     "generate:css": "npx tailwindcss -i ./src/styles/tailwind.css -o ./public/styles.css",
-    "clean": "rm -rf ./public/styles.css && rm -rf dist"
+    "clean": "rm -rf ./public/styles.css && rm -rf dist",
+    "publish:pkg": "npm run clean && npm run build && npm publish"
   },
   "keywords": [],
   "author": "Aman Mavai",
