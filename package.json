@@ -2,7 +2,15 @@
   "name": "mn_components",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup",
     "clean": "rm -rf node_modules && rm -rf dist"
