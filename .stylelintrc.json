@@ -10,6 +10,7 @@
     "declaration-block-trailing-semicolon": null,
     "no-descending-specificity": null,
     "import-notation": "string",
-    "comment-empty-line-before": null
+    "comment-empty-line-before": null,
+    "custom-property-empty-line-before": null
   }
 }
