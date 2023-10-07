@@ -2,6 +2,7 @@
 - [ ] add ag-grid component as part of this lib
 
 - [x] add prettier
+- [x] add stylelint
 - [ ] add eslint
 
 - [ ] try experimenting with removing @import "tailwindcss/base"; from tailwind.css, this might be useful for consuming applications
