@@ -15,4 +15,8 @@ $ npx tailwindcss -i ./src/styles/tailwind.css -o ./public/styles.css
 $ npm i -D prettier prettier-plugin-tailwindcss
 
 $ npm init stylelint
+
+# eslint
+$ npm init @eslint/config
+$ npm i -D eslint-config-prettier
 ```
