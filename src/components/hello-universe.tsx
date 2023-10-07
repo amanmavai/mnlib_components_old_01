@@ -1,4 +1,4 @@
-interface UniverseProps {
+export interface UniverseProps {
   name: string;
   size: string;
   expansion: number;

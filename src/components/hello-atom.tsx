@@ -1,4 +1,4 @@
-interface AtomProps {
+export interface AtomProps {
   name: string;
   size: string;
   spin: number;
