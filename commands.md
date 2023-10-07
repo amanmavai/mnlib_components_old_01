@@ -11,4 +11,6 @@ $ npm install -D tailwindcss
 $ npx tailwindcss init
 
 $ npx tailwindcss -i ./src/styles/tailwind.css -o ./public/styles.css
+
+$ npm i -D prettier prettier-plugin-tailwindcss
 ```
