@@ -3,6 +3,6 @@
 
 - [x] add prettier
 - [x] add stylelint
-- [ ] add eslint
+- [x] add eslint
 
 - [ ] try experimenting with removing @import "tailwindcss/base"; from tailwind.css, this might be useful for consuming applications
